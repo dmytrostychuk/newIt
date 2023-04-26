@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: Roboto;
+  font-family: "Comic";
 
   @include mq($from: phablet) {
     font-size: 16px;
@@ -69,10 +69,9 @@ svg {
   fill: #ffffff;
 }
 
-.tablet-none {
 
-  @include mq($from: tablet) {
-    display: none;
-  }
-  
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
 }

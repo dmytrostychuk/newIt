@@ -1,9 +1,7 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Comic';
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Regular'), local('Roboto-Regular'),
-    url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff'),
-    url('../fonts/Roboto-Regular.ttf') format('ttf');
+  src: local('Comic Sans'), local('Comic-Sans'),
+    url('../fonts/Comic-Sans.ttf') format('ttf');
 }

@@ -1,6 +1,11 @@
 .header {
 	position: relative;
 	height: 700px;
+
+	@include mq($from: tablet-wide) {
+		height: 570px;
+
+	}
 }
 
 .header__background {
@@ -12,6 +17,11 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	@include mq($from: tablet-wide) {
+		height: 570px;
+
+	}
 }
 
 .header__wrap {
@@ -19,17 +29,14 @@
 	position: relative;
 	z-index: 2;
 	width: 100%;
-	height: 50px;
-	background-color: #f6ea8cb9;
-}
-
-.box {
+	height: 90px;
+	background-color: #ffe866ce;
 }
 
 .header__inner {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 13px;
+	padding-top: 30px;
 }
 
 .lang-link {
@@ -37,4 +44,11 @@
 }
 
 .header__bottom {
+	
+	@include mq($from: tablet-wide) {
+		margin: 0 20px 0 50px;
+		width: 80%;
+		background-color: #ffe866ce;
+	}
+	
 }
